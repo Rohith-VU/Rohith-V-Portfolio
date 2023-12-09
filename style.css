@@ -1,0 +1,348 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+
+}
+
+header{
+    background-color: #1b1f24;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position:fixed;
+    width:100%;
+    align-items: center;
+    top:0px;
+
+  
+}
+.logo{
+    color:rgb(5, 170, 215);
+    letter-spacing:1px;
+            
+    cursor:pointer;
+    margin-top:5px;
+}
+
+.navigation{
+    display:flex;
+    
+}
+
+li{
+    list-style:none;
+}
+li a{
+    text-decoration:none;
+    color:white;
+    text-align: center;
+
+
+}
+
+li a ul
+{
+   
+    padding-left:30px;
+    font-size:20px;
+    padding-top:0;
+    text-align: center;
+
+}
+
+li a ul:hover{
+    color:rgb(5, 170, 215);
+}
+
+
+.resume{
+    padding:5px 15px;
+    background-color:#1b1f24;
+    color:rgb(5, 170, 215);
+    border:2px solid rgb(5, 170, 215);
+    font-size:17px;
+    border-radius:2px;
+    margin-top:10px;
+    margin-bottom:2px;
+    transition:0.7s;
+
+}
+
+.resume:hover{
+    background-color:rgb(5, 170, 215);
+    color:black;
+    cursor:pointer;
+}
+
+                                /* section hero Image */
+
+ .hero-section{
+    display:flex;
+    background-color: #1b1f24 ;
+    color:#fff;
+    align-items: center;
+    padding:20px 130px 0px 110px;
+    margin-top:30px;
+
+}
+
+section .hero-section-title{
+    font-size:48px;
+    font-weight:600;
+    
+}
+
+.hero-section span{
+    color:rgb(5, 170, 215);
+}
+
+.hero-section .hero-para{
+    color:grey
+}
+
+.social-icons{
+    display:flex;
+    margin:20px 0;
+}
+
+.social-icons i{
+    
+    color:rgb(5, 170, 215);
+    padding-right:25px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.hire-me{
+    color:#1b1f24;
+    background-color:rgb(5, 170, 215); 
+    border:none;
+    font-size:16px;
+    font-weight:bold;
+    padding:7.9px 20px;
+    margin-right:8px;
+    cursor: pointer;
+    border-radius: 1px;
+
+}
+
+.hire-me:hover{
+    opacity:0.8 ;
+}
+
+        /* about section */
+
+.about-section{
+    display:flex;
+    justify-content: center;
+    background-color:#22282f;
+    color:white;
+    align-items: center;
+    padding:50px 90px;
+}
+
+#about-pic{
+    border-radius: 70%;
+    border: 10px solid rgb(5, 170, 215);
+    box-shadow:2px 2px 40px #03506e ;
+   
+}
+
+.prime{
+    color: rgb(5, 170, 215);
+}
+
+.about-desc{
+    margin-left:80px;
+    line-height: 30px;
+}
+
+.about-desc h2{
+    padding-bottom:12px;
+}
+
+#hire_mee{
+    margin-top:10px;
+}
+
+.about-desc ul{
+    color:gray;
+}
+.about-desc ul li strong{
+    color:#fff;
+}
+
+ /*work section*/
+
+ .work_section_areas{
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
+ }
+ .work-section{
+    background-color: #1b1f24 ;
+    color:white;
+    padding:60px; 
+    text-align: center; 
+
+ }
+
+ .work-section-box{
+    background-color:#22282f;
+    padding:50px 30px;
+    max-width:300px;
+    text-align: left; 
+    border-radius:10px;
+    margin-right:28px;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.work-section #wspan{
+    color:rgb(5, 170, 215)  ;
+}
+.work_section_logo{
+    background-color:rgb(5, 170, 215) ;
+    padding:10px;
+    border-radius: 20px;
+    
+
+}
+
+.work-section-box > h4
+{
+    margin-top:20px;
+}
+
+.work-section-box > p{
+color:gray;
+font-size:16px;
+margin-top:10px;
+
+}
+
+.work-section-box > a{
+    text-decoration:none;
+    color:rgb(5, 170, 215);
+    display:block;
+    margin-top:10px;
+
+}
+
+#work-section_head{
+    font-size:25px;
+   font-weight:800;
+}
+
+
+.work-section-box:hover{
+    background-color: rgb(16, 15, 15);
+}
+
+/* contact section */
+
+.Contact-section{
+    background-color: #1b1f24 ;
+    color:white;
+    text-align:center;
+    padding:40px;
+    
+}
+
+.Contact-section form input,textarea{
+    padding:10px 30px;
+    outline:none;
+    border:none;
+   width:360px;
+   margin-bottom: 10px;
+   background-color: rgb(200, 194, 194);
+   border-radius:5px;
+    }
+
+    .Contact-section h4{
+        font-size:25px;
+        font-weight: 800;
+        margin:6px 6px 20px 15px;
+    }
+
+    .Contact-section h4 span{
+        color:rgb(5, 170, 215);
+    }
+
+    .Contact-section button{
+        background-color:rgb(5, 170, 215); 
+        border: none;
+        padding:10px 20px;
+        font-size:18px;
+        font-weight:bold;
+        border-radius:5px;
+       cursor: pointer;
+    }
+
+    footer{
+        background-color: #1b1f24 ;
+        color:#fff;
+        text-align: center;
+    }
+
+    footer a{
+        color:rgb(5, 170, 215);
+        text-decoration: none;
+    }
+
+    /* Media Queries*/
+
+    @media only screen and (max-width: 600px)
+    {
+        header{
+            flex-direction: column;
+        }
+
+        header > *{
+            margin-bottom: 10px;
+        }
+
+        /* Hero section */
+        section.hero-section{
+            flex-direction: column;
+            padding:20px 70px;
+        }
+        section.hero-section img{
+            display:none;
+        }
+        
+
+        /* About Section */
+        section.about-section{
+            flex-direction: column;
+     
+        }
+
+        .work-section-box{
+            padding:20px 50px;
+            width:100%;
+        }
+        .about-desc{
+            margin-left: 0;
+            margin-top:30px;
+        }
+        /* Work section */
+
+
+        .work_section_areas{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .work-section-box{
+            margin-bottom:20px;
+           width:100%;
+           margin-right: 0;
+        }
+        
+ .hero-section{
+    margin-top:110px;
+    padding-top: 20px;
+    }
